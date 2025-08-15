@@ -115,6 +115,18 @@ img {
 
 @media (max-width: 375px) {
     
+ h2 {
+        font-size: 1.25rem;
+    }
+
+    .description {
+        font-size: 0.875rem;
+    }
+
+    .date, .label {
+        font-size: 0.75rem;
+    }
+
     .card {
         width: 327px;
         height: 501px;
@@ -131,20 +143,6 @@ img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
-
-
-
-    h2 {
-        font-size: 1.25rem;
-    }
-
-    .description {
-        font-size: 0.875rem;
-    }
-
-    .date, .label {
-        font-size: 0.75rem;
     }
 
 }
